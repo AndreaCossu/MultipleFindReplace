@@ -5,6 +5,12 @@ F = file in which find and replace concept
 FW = file in which store the result of find and replace
 '''
 
+''' Setting the files'path '''
+
+findlistpath=''
+replacelistpath=''
+fpath=''
+fwpath=''
 
 ''' Remove the \n terminator from a list of string '''
 def removen(l,lun):
@@ -26,10 +32,10 @@ def writesub(el,lun):
 	fw.write(el)
 		
 ''' Open the files '''
-findlist = open('/home/andrea/Desktop/find','r')
-replacelist = open('/home/andrea/Desktop/replace','r')
-f = open('/home/andrea/Desktop/list','r')
-fw = open('/home/andrea/Desktop/listm','w')
+findlist = open(findlistpath,'r')
+replacelist = open(replacelistpath,'r')
+f = open(fpath,'r')
+fw = open(fwpath,'w')
 
 ''' Tokenize the files '''
 fl = list(findlist)
