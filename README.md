@@ -10,7 +10,7 @@ The path of the first file is "/home/user/Desktop/listf" where user is you usern
 Result is an empty file.
 Corpus contains the text in which find and replace terms. It has to be a CSV file where comma is the separator.
 
-Listf and listr are similar to a pair key-value. Listf contains the keys (one per line) and listr contains the values (one per line). The script search for keys in the corpus and replace them with values, writing the output in result file.
+Listf and listr are similar to a key-value pair. Listf contains the keys (one per line) and listr contains the values (one per line). The script search for keys in the corpus and replace them with values, writing the output in result file.
 
 Keys and values could be composed by one or more words, separated by spaces.
 
