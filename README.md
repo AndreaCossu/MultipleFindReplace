@@ -16,7 +16,7 @@ Keys and values could be composed by one or more words, separated by spaces.
 
 HOW TO USE:
 
-If all the files are formatted as indicated, all you have to do is to copy the path of your files in the Python code.
+If all the files are formatted as indicated, all you have to do is copy the path of your files in the Python code.
 
 findlistpath='/path/of/listf'
 replacelistpath='/path/of/listr'
